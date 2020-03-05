@@ -1,0 +1,15 @@
+apiVersion: v2
+publisher: BetterThanTomorrow
+name: calva
+version: 2.0.79
+type: VS Code extension
+displayName: Clojure & ClojureScript with VS Code
+title: Calva: Clojure & ClojureScript with Visual Studio Code
+description: Integrated REPL, formatter, Paredit, and more. Powered by nREPL.
+icon: https://raw.githubusercontent.com/BetterThanTomorrow/calva/dev/assets/calva-64h.png
+repository: https://github.com/BetterThanTomorrow/calva
+category: Language
+firstPublicationDate: "2020-03-01"
+spec:
+  extensions:
+    - https://github.com/BetterThanTomorrow/calva/releases/download/v2.0.79/calva-2.0.79.vsix
